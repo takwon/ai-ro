@@ -6,7 +6,7 @@ st.title('뭐든지 질문하세요~')
 import os
 import openai
 
-openai.api_key = st.secrets["openai_api_key"]
+
 
 def generate_response(input_text): #llm이 답변 생성
     llm = ChatOpenAI(temperature=0,
