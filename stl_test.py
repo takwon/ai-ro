@@ -10,7 +10,7 @@ openai.api_key = st.secrets["openai_api_key"]
 
 def generate_response(input_text): #llm이 답변 생성
     llm = ChatOpenAI(temperature=0,
-                     model_name='gpt-4',
+                     model_name='gpt-3.5-turbo',
                      )
     st.info(llm.predict(input_text))
 
