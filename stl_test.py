@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 st.set_page_config(page_title="뭐든지 질문하세요~")
 st.title('뭐든지 질문하세요~')
 
