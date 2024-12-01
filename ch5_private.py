@@ -6,7 +6,7 @@ from numpy.linalg import norm
 import ast
 import json
 import requests
-import xmltodict
+#import xmltodict
 import openai
 import streamlit as st
 from streamlit_chat import message
@@ -45,8 +45,8 @@ def get_current_rad(location, unit="uSv/h"):
 
 
 
-    return json.dumps(xmltodict.parse(contents))
-
+    #return json.dumps(xmltodict.parse(contents))
+    return "dd"
 
 
 functions = [
