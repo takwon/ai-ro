@@ -1,5 +1,7 @@
-streamlit
-numpy
-pandas
+requests
+xmltodict
 openai
-streamlitchat
+pandas
+numpy
+streamlit
+streamlit_chat
